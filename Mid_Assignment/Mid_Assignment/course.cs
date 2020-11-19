@@ -10,7 +10,7 @@ namespace Mid_Assignment
     {
          String courseName;
          String courseId;
-        section[] sectionName = new section[5];
+        section[] sectionName = new section[05];
         int countSection = 0;
 
         public string CourseName
@@ -48,9 +48,12 @@ namespace Mid_Assignment
         }
         public void ShowInfo()
         {
+            Console.WriteLine();
             Console.WriteLine("Course Name : " + courseName);
+            Console.WriteLine();
             Console.WriteLine("Course Id Number : " + courseId);
-            
+            Console.WriteLine();
+
         }
 
 

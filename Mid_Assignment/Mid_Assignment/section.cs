@@ -38,6 +38,9 @@ namespace Mid_Assignment
         {
             Console.WriteLine("Section:" + name);
             FacultyName.ShowFInfo();
+            Console.WriteLine();
+            Console.WriteLine();
+
         }
 
     }

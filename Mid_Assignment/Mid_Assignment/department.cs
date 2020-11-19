@@ -25,6 +25,7 @@ namespace Mid_Assignment
         public void ShowDInfo()
         {
             Console.WriteLine(departmentName);
+            Console.WriteLine();
         }
         public void AddCourse(course courseName)
         {

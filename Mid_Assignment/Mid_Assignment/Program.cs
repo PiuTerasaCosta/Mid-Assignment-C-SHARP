@@ -13,10 +13,17 @@ namespace Mid_Assignment
 
 
             Console.WriteLine("Welcome to University Management System");
+            Console.WriteLine();
+
             Console.WriteLine("Developed by Piu Terasa Costa");
+            Console.WriteLine();
+
             Console.WriteLine("Developer At Kuratoli Software Solutions");
+
             Console.WriteLine("..........................................");
             Console.WriteLine("..........................................");
+            Console.WriteLine();
+
             department cse = new department("CSE");
             department bba = new department("BBA");
             department eee = new department("EEE");
@@ -33,9 +40,8 @@ namespace Mid_Assignment
             
 
 
-            cse.AddCourse(oop2);
+            csse.AddCourse(oop2);
             cse.AddCourse(oop1);
-            csse.AddCourse(pl);
            eee.AddCourse(pl);
             eee.AddCourse(device);
             bba.AddCourse(acc);
@@ -56,10 +62,10 @@ namespace Mid_Assignment
 
 
 
-            faculty F = new faculty("Tanvir Ahmed", "17-98635-2", 20);
-            faculty F1 = new faculty("Rumana Afrin ", "15-75474-8", 16);
-            faculty F2 = new faculty("Bisshawjit Banik ", "17-854739-2", 18);
-            faculty F3 = new faculty("Kaniz Fatema ", "17-89653-2", 19);
+            faculty F = new faculty("Tanvir Ahmed", "17-98635-2", 15);
+            faculty F1 = new faculty("Rumana Afrin ", "15-75474-8", 14);
+            faculty F2 = new faculty("Bisshawjit Banik ", "17-854739-2", 12);
+            faculty F3 = new faculty("Kaniz Fatema ", "17-89653-2", 15);
             F.AddSection(A);
             F.AddSection(B);
             F1.AddSection(E);
@@ -78,28 +84,40 @@ namespace Mid_Assignment
             H.AddTeacher(F3);
 
 
+            Console.WriteLine();
 
 
-
-
-
-
-
-            Console.WriteLine("..........info from Course object...........");
+            Console.WriteLine("..........Information of faculty sectionwise ...........");
             oop1.ShowSectionFaculty();
             oop2.ShowSectionFaculty();
             pl.ShowSectionFaculty();
             acc.ShowSectionFaculty();
             device.ShowSectionFaculty();
 
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine(".......INFORMATION OF SECTIONS FACULTYWISE....." );
+            Console.WriteLine();
 
-            Console.WriteLine(".........Section info from Faculty object...........");
+
+
             F.ShowSectionDetails();
             F1.ShowSectionDetails();
             F2.ShowSectionDetails();
             F3.ShowSectionDetails();
 
-           ;
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine("........COURSE DETAILS.......");
+            Console.WriteLine();
+
+            oop1.ShowInfo();
+            oop2.ShowInfo();
+            pl.ShowInfo();
+            acc.ShowInfo();
+            device.ShowInfo();
+
         }
 
     }

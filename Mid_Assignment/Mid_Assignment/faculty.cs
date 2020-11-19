@@ -47,8 +47,11 @@ namespace Mid_Assignment
 
         public void ShowFInfo()
         {
-            Console.WriteLine("Teacher's Name: " + FacultyName);
-            Console.WriteLine("Teacher's Id: " + FacultyId);
+            Console.WriteLine();
+            Console.WriteLine("Faculty's Name: " + FacultyName);
+            Console.WriteLine();
+            Console.WriteLine("Faculty's Id: " + FacultyId);
+            Console.WriteLine();
         }
 
         public void ShowSectionDetails()
