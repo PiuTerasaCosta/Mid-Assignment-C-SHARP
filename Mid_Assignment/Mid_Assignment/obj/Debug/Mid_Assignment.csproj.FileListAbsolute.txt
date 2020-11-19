@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\C#\Mid_Assignment\Mid_Assignment\bin\Debug\Mid_Assignment.exe.config
+C:\Users\ASUS\Desktop\C#\Mid_Assignment\Mid_Assignment\bin\Debug\Mid_Assignment.exe
+C:\Users\ASUS\Desktop\C#\Mid_Assignment\Mid_Assignment\bin\Debug\Mid_Assignment.pdb
+C:\Users\ASUS\Desktop\C#\Mid_Assignment\Mid_Assignment\obj\Debug\Mid_Assignment.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#\Mid_Assignment\Mid_Assignment\obj\Debug\Mid_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\C#\Mid_Assignment\Mid_Assignment\obj\Debug\Mid_Assignment.exe
+C:\Users\ASUS\Desktop\C#\Mid_Assignment\Mid_Assignment\obj\Debug\Mid_Assignment.pdb
